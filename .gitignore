@@ -1,0 +1,54 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# ========================
+# Virtual environment
+# ========================
+venv/
+ENV/
+env/
+
+# ========================
+# OS-specific
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs and temporary files
+# ========================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+
+# ========================
+# Models / Large files
+# ========================
+models/
+*.h5
+
+# ========================
+# DeepFace / cache folders
+# ========================
+.venv/  # if DeepFace installs anything here
+.deepface/
+
+# ========================
+# Images / Data (optional)
+# ========================
+data/
+*.jpg
+*.png
+*.jpeg
