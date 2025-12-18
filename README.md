@@ -1,5 +1,7 @@
 # 🎭 Emotion Detector (Real-Time Face Emotion Recognition)
 
+![CI](https://github.com/NomadicJazz/emotion-detector/actions/workflows/ci.yml/badge.svg)
+
 A real-time **face emotion detection** project using a webcam.  
 The application detects a face from live video and classifies the **dominant facial emotion** such as:
 
@@ -37,21 +39,7 @@ This project demonstrates **computer vision**, **deep learning inference**, and 
 
 ---
 
-1. Clone the repository
-
-git clone https://github.com/NomadicJazz/emotion-detector.git
-cd emotion-detector
-
-2. Create & activate a virtual environment
-python3 -m venv venv
-source venv/bin/activate
-
-3. Install dependencies
-
-pip install -r requirements.txt
-
-4. Real-time Webcam Emotion Detection
-
-python3 src/detect_webcam_miniX.py
+<pre> ```bash # Clone the repo git clone https://github.com/NomadicJazz/emotion-detector.git cd 
+emotion-detector # Create & activate virtual environment python3 -m venv venv source venv/bin/activate # Install dependencies pip install -r requirements.txt # Run the detection script python3 src/detect_webcam_miniX.py ``` </pre>
 
 
