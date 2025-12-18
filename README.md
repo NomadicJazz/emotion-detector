@@ -39,7 +39,19 @@ This project demonstrates **computer vision**, **deep learning inference**, and 
 
 ---
 
-<pre> ```bash # Clone the repo git clone https://github.com/NomadicJazz/emotion-detector.git cd 
-emotion-detector # Create & activate virtual environment python3 -m venv venv source venv/bin/activate # Install dependencies pip install -r requirements.txt # Run the detection script python3 src/detect_webcam_miniX.py ``` </pre>
+```bash
+# Clone the repo
+git clone https://github.com/NomadicJazz/emotion-detector.git
+cd emotion-detector
+
+# Create & activate virtual environment
+python3 -m venv venv
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the detection script
+python3 src/detect_webcam_miniX.py
 
 
