@@ -48,7 +48,7 @@ models/
 # ========================
 # Images / Data (optional)
 # ========================
-data/
-*.jpg
-*.png
-*.jpeg
+#data/
+#*.jpg
+#*.png
+#*.jpeg
